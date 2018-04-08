@@ -18,6 +18,12 @@ component: LoginFormComponent
 
 @NgModule({
 
+declarations :[
+
+LoginFormComponent
+
+],
+
   imports: [RouterModule.forRoot(appRoutes)],
 
 exports: [RouterModule]

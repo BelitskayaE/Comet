@@ -18,6 +18,7 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 import { NewPasswordFormComponent } from './new-password-form/new-password-form.component';
 import { SignUpFormComponent } from './sign-up-form/sign-up-form.component';
 import { FriendInfoComponent } from './friend-info/friend-info.component';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { FriendInfoComponent } from './friend-info/friend-info.component';
     ErrorPageComponent,
     NewPasswordFormComponent,
     SignUpFormComponent,
-    FriendInfoComponent
+    FriendInfoComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

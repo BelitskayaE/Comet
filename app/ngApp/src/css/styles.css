@@ -29,18 +29,10 @@ body {
   padding:0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: url("../images/12.png");
-  display:flex;
 
-  width:100%;
 
 }
 
-#content{
-  width:100%;
-  position:absolute ;
-  display:flex;
-  justify-content: center;
-}
 
 
 /**
@@ -641,6 +633,8 @@ friend-info
   position: absolute;
   justify-content: center;
   top: 10%;
+  left:calc(50% - 250px);
+
   -webkit-box-shadow: inset 2px -1px 24px 5px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 2px -1px 24px 5px rgba(0,0,0,0.75);
   box-shadow: inset 2px -1px 24px 5px rgba(0,0,0,0.75);

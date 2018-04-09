@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Hind+Siliguri|Raleway|Padauk|Rammetto+One");
 
-body {
-  box-sizing: border-box;
-  justify-content: center;
-  display:flex;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-
-}
 
 button,a {
   outline:0 none !important;
@@ -57,36 +50,13 @@ button:hover, a:hover{
   border-radius: 100px;
 }
 
-input{
 
-  padding-left: 15px;
-  width: 150px;
-  height: 25px;
-  box-sizing: border-box;
-  border-radius: 42px;
-  padding-right: 25px;
-  background: #E6E6E6;
-  outline: none;
-  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
-  transition: .3s linear;
-  display:flex;
-  display:-webkit-flex;
-  display:-moz-flex;
-  border:none;
-
-}
-input:focus {
-  width: 180px;
-}
 
 #content {
-  top: 7%;
-  left: 3%;
-  width: 1100px;
+
+
   display: flex;
-  height: 600px;
-  position: absolute;
-  justify-content: space-between;
+
 
 }
 

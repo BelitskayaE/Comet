@@ -11,7 +11,8 @@
     "express": "^4.15.3",
     "request-promise": "4.2.2",
     "https": "*",
-    "json5": "*"
+    "json5": "*",
+    "typescript": "^2.4.2"
   },
   "devDependencies": {
     "@angular/cli": "^1.7.4",

@@ -29,6 +29,9 @@ body {
   padding:0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: url("../images/12.png");
+  display:flex;
+  justify-content: center;
+  align-items:center;
 
 
 }
@@ -333,7 +336,6 @@ contacts
 #new_chat{
   text-align: center;
   position: relative;
-
 
 }
 
@@ -640,18 +642,19 @@ friend-info
   box-shadow: inset 2px -1px 24px 5px rgba(0,0,0,0.75);
 }
 .vhod-input {
-  width: 190px;
+  width: 130px;
   height: 35px;
   border-radius: 42px;
   border: none;
-  box-shadow: inset 0px 0px 8px rgba(0,0,0,0.5);
+  box-shadow: inset 2px 2px 8px rgba(0,0,0,0.5);
   outline: none;
   transition: 0.3s linear;
   position: absolute;
   padding-left: 15px;
+
 }
 .vhod-input:focus {
-  width: 240px;
+  width: 180px;
 }
 #inp1 {
   top: 35%;

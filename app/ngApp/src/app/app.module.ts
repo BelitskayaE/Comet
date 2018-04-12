@@ -19,6 +19,7 @@ import { NewPasswordFormComponent } from './new-password-form/new-password-form.
 import { SignUpFormComponent } from './sign-up-form/sign-up-form.component';
 import { FriendInfoComponent } from './friend-info/friend-info.component';
 import { MainComponent } from './main/main.component';
+import { BackComponent } from './back/back.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { MainComponent } from './main/main.component';
     NewPasswordFormComponent,
     SignUpFormComponent,
     FriendInfoComponent,
-    MainComponent
+    MainComponent,
+    BackComponent
   ],
   imports: [
     BrowserModule,

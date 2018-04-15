@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Hind+Siliguri|Raleway|Rammetto+One");
-
+body {/*there must be nooo body*/
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  background: url("https://sky-wall.ru/uploads/source/2016/07/preview/9e3738016c7423664cdaf9b57530c8c6.jpg");
+}
 img {
   width: 50px;
   height: 50px;
@@ -8,7 +13,28 @@ img {
   z-index: 0;
   display: flex;
 }
-
+#allLogo {
+  top: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 130px;
+  border-right-width: 130px;
+  border-top: 100px solid rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  font-size: 23px;
+  font-family: 'Rammetto One', cursive;
+  position: absolute;
+  display: flex;
+  top: -115px;
+  color: #0489b1;
+  letter-spacing: 5px;
+  z-index: 3;
+}
 #vhodichi {
   justify-content: center;
 }
@@ -167,7 +193,7 @@ h2 {
   position: absolute;
   text-align: center;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 8px;
   border-radius: 42px;
   cursor: pointer;
 }
@@ -214,4 +240,14 @@ h2 {
   top: 35%;
   height: 90px;
   width: 90px;
+}
+
+button,a {
+  outline:0 none !important;
+  color: #0489b1;
+  text-decoration: none;
+}
+button:hover, a:hover{
+  cursor: pointer;
+  color: #fff;
 }

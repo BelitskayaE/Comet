@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-info.component.css']
 })
 export class UserInfoComponent implements OnInit {
-  personalImage: any = '../images/profile_foto.jpg';
+  personalImage: any = '../../assets/profile_foto.png';
   constructor() { }
 
   ngOnInit() {

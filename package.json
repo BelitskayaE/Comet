@@ -14,7 +14,7 @@
     "json5": "*"
   },
   "devDependencies": {
-    "@angular/cli": "^1.7.4",
+    "@angular/cli": "^1.7.3",
     "@angular/core": "^5.2.9",
     "cors": "2.8.4",
     "nodemon": "^1.11.0",

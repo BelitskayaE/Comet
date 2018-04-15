@@ -1,12 +1,12 @@
 #dialog {
   width: 700px;
-  height: 90%;
+  height: 100%;
   top:1.5%;
   position:relative;
 }
 
 .tab{
-  height: 380px;
+  height: 420px;
   display: flex;
   flex-direction: column;
   overflow:auto;
@@ -27,7 +27,7 @@
   font-family: 'Padauk', cursive;
   letter-spacing:1px;
   margin-top:5px;
-
+  border-radius:22px;
   z-index: 4;
   word-wrap:break-word;
   color:#fff;
@@ -45,9 +45,6 @@
   margin-right:70px;
   float:left;
   z-index:2;
-  border-radius:22px;
- border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
 
 
 }
@@ -56,9 +53,7 @@
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   margin-left: auto;
   float:right;
-  border-radius:22px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
+
 
 }
 
